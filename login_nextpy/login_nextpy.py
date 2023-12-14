@@ -35,20 +35,23 @@ def index():
                             width="350px",
                             margin_left="175px",
                             margin_top="12px",
-                            color = "#dbdbdc"
+                            color = "#8c8c8c"
                         ),
+                        xt.image(src="./gradient_underline.svg",position="absolute",margin_top="60px",margin_left="-318px",height="14px"),
                         text_align="center",
                         padding_top = "60px"
                     ),
                     xt.box(
                         xt.form(
                         xt.vstack(
+                            xt.image(src="./draw.png",position="absolute",width="100px",height="100px",margin_left="245px",margin_top = "40px"),
                             xt.input(
                                 placeholder="Email / Phone number",
                                 name="first_name",
                                 width = "240px",
                                 border="none",
-                                bg = "#222222"
+                                bg = "#222222",
+                                color ="#373737"
                             ),
                             xt.input(
                                 placeholder="Password",
@@ -56,6 +59,7 @@ def index():
                                 width = "240px",
                                 border="none",
                                 bg = "#222222",
+                                color = "#373737"
                             ),
                             xt.button(
                                 "Login to your account",
@@ -71,26 +75,41 @@ def index():
                     ),
                         xt.form(
                         xt.vstack(
-                            xt.input(
-                                placeholder="Email / Phone number",
-                                name="first_name",
+                            xt.box(
+                                xt.image(src="./google.svg",width="25px",height="25px",                                margin_left = "8px",),
+                                xt.text("Sign in with Google",fontSize ="15px",font_weight="bold",color="white",margin_left="15px"),
+                                height = "42px",
                                 width = "240px",
-                                border="none",
-                                bg = "#222222"
-                            ),
-                            xt.input(
-                                placeholder="Password",
-                                name="password",
-                                width = "240px",
-                                border="none",
+                                border="1px solid #ff3d00",
                                 bg = "#222222",
+                                border_radius = "5px",
+                                display="flex",
+                                align_items = "center",
+                                text_align = "center",
                             ),
-                            xt.button(
-                                "Login to your account",
-                                 width = "240px",
-                                 background_image= "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)",
-                                 text_align ="right",
-                                 font_weight = "bold"
+                            xt.box(
+                                xt.image(src="./github.svg",width="25px",height="25px",                                margin_left = "8px",),
+                                xt.text("Sign in with Github",fontSize ="15px",font_weight="bold",color="white",margin_left="15px"),
+                                height = "42px",
+                                width = "240px",
+                                border="1px solid #494369",
+                                bg = "#222222",
+                                border_radius = "5px",
+                                display="flex",
+                                align_items = "center",
+                                text_align = "center",
+                            ),
+                            xt.box(
+                                xt.image(src="./facebook.svg",width="26px",height="26px",                                margin_left = "8px",),
+                                xt.text("Sign in with Facebook",fontSize ="15px",font_weight="bold",color="white",margin_left="15px"),
+                                height = "42px",
+                                width = "240px",
+                                border="1px solid #039be5",
+                                bg = "#222222",
+                                border_radius = "5px",
+                                display="flex",
+                                align_items = "center",
+                                text_align = "center",
                             ),
                             align_items = "right",
                             margin_left="90px",
