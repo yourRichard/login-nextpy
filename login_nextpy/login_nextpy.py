@@ -68,6 +68,12 @@ def index():
                                  text_align ="left",
                                  font_weight = "bold"
                             ),
+                            xt.text(
+                                "Don't have an account? Regiester",
+                                fontSize="14px",
+                                color="#373737",
+                                cursor="pointer"
+                            ), 
                             align_items = "left",
                             margin_left="60px",
                             margin_top="60px"
@@ -86,6 +92,7 @@ def index():
                                 display="flex",
                                 align_items = "center",
                                 text_align = "center",
+                                cursor="pointer"
                             ),
                             xt.box(
                                 xt.image(src="./github.svg",width="25px",height="25px",                                margin_left = "8px",),
@@ -98,6 +105,7 @@ def index():
                                 display="flex",
                                 align_items = "center",
                                 text_align = "center",
+                                cursor="pointer"
                             ),
                             xt.box(
                                 xt.image(src="./facebook.svg",width="26px",height="26px",                                margin_left = "8px",),
@@ -110,10 +118,16 @@ def index():
                                 display="flex",
                                 align_items = "center",
                                 text_align = "center",
+                                cursor="pointer"
+                            ),
+                            xt.text(
+                                "Fogot Password?",
+                                fontSize = "14px",
+                                color="#373737",
                             ),
                             align_items = "right",
                             margin_left="90px",
-                            margin_top="60px"
+                            margin_top="66px"
                         ),
                     ),
                     display = "flex"

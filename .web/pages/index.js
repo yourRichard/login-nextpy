@@ -42,28 +42,34 @@ export default function Component() {
   <Button sx={{"width": "240px", "backgroundImage": "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)", "textAlign": "left", "fontWeight": "bold"}}>
   {`Login to your account`}
 </Button>
+  <Text sx={{"fontSize": "14px", "color": "#373737", "cursor": "pointer"}}>
+  {`Don't have an account? Regiester`}
+</Text>
 </VStack>
 </Box>
   <Box as={`form`}>
-  <VStack alignItems={`right`} sx={{"marginLeft": "90px", "marginTop": "60px"}}>
-  <Box sx={{"height": "42px", "width": "240px", "border": "1px solid #ff3d00", "bg": "#222222", "borderRadius": "5px", "display": "flex", "alignItems": "center", "textAlign": "center"}}>
+  <VStack alignItems={`right`} sx={{"marginLeft": "90px", "marginTop": "66px"}}>
+  <Box sx={{"height": "42px", "width": "240px", "border": "1px solid #ff3d00", "bg": "#222222", "borderRadius": "5px", "display": "flex", "alignItems": "center", "textAlign": "center", "cursor": "pointer"}}>
   <Image src={`./google.svg`} sx={{"width": "25px", "height": "25px", "marginLeft": "8px"}}/>
   <Text sx={{"fontSize": "15px", "fontWeight": "bold", "color": "white", "marginLeft": "15px"}}>
   {`Sign in with Google`}
 </Text>
 </Box>
-  <Box sx={{"height": "42px", "width": "240px", "border": "1px solid #494369", "bg": "#222222", "borderRadius": "5px", "display": "flex", "alignItems": "center", "textAlign": "center"}}>
+  <Box sx={{"height": "42px", "width": "240px", "border": "1px solid #494369", "bg": "#222222", "borderRadius": "5px", "display": "flex", "alignItems": "center", "textAlign": "center", "cursor": "pointer"}}>
   <Image src={`./github.svg`} sx={{"width": "25px", "height": "25px", "marginLeft": "8px"}}/>
   <Text sx={{"fontSize": "15px", "fontWeight": "bold", "color": "white", "marginLeft": "15px"}}>
   {`Sign in with Github`}
 </Text>
 </Box>
-  <Box sx={{"height": "42px", "width": "240px", "border": "1px solid #039be5", "bg": "#222222", "borderRadius": "5px", "display": "flex", "alignItems": "center", "textAlign": "center"}}>
+  <Box sx={{"height": "42px", "width": "240px", "border": "1px solid #039be5", "bg": "#222222", "borderRadius": "5px", "display": "flex", "alignItems": "center", "textAlign": "center", "cursor": "pointer"}}>
   <Image src={`./facebook.svg`} sx={{"width": "26px", "height": "26px", "marginLeft": "8px"}}/>
   <Text sx={{"fontSize": "15px", "fontWeight": "bold", "color": "white", "marginLeft": "15px"}}>
   {`Sign in with Facebook`}
 </Text>
 </Box>
+  <Text sx={{"fontSize": "14px", "color": "#373737"}}>
+  {`Fogot Password?`}
+</Text>
 </VStack>
 </Box>
 </Box>
